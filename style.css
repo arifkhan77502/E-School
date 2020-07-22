@@ -1,0 +1,205 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: Poppins;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+
+/*************Header Section***********/
+
+header {
+    background: #F0FFF0;
+    background: linear-gradient(to bottom, #dff8df, #cef7ce);
+
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item .sign-in {
+    background: #21B573;
+    border: none;
+    border-radius: 30px;
+}
+
+header .nav-item {
+    padding: 0.5em;
+}
+
+header .navbar-brand {
+    padding-left: 10.5em;
+}
+
+header .nav-link {
+    color: #000000;
+}
+
+header .nav-link:hover {
+    color: rgb(51, 51, 54);
+}
+
+
+
+
+
+
+
+header .row .col-md-6 .panel {
+    padding-top: 10vmin;
+    padding-left: 4vmin;
+    padding-bottom: 10vmin;
+}
+
+header .row .col-md-6 .panel h6 {
+    color: #FD511A;
+    padding: 0.7vmin;
+    letter-spacing: 2px;
+}
+
+header .row .col-md-6 .panel h1 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 2.8em;
+    padding: 0.2em 0em;
+    line-height: 60px;
+}
+
+header .row .col-md-6 .panel h1 span {
+    color: #21B573;
+}
+
+header .row .col-md-6 .panel p {
+    color: #6C6B6B;
+    line-height: 30px;
+}
+
+header .row .col-md-6 .panel button {
+    background: #21B573;
+    border: none;
+    border-radius: 30px;
+}
+
+
+header .row .col-md-6 img {
+    width: 100%;
+    height: auto;
+    padding-top: 7vmin;
+    padding-left: 4vmin;
+    padding-bottom: 10vmin;
+}
+
+
+/*************Section-1***********/
+
+.single-service {
+    border-radius: 10px;
+}
+
+.single-service img {
+    height: 80px;
+}
+
+.single-service:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.courses h1 {
+    color: #413960;
+    font-weight: bold;
+}
+
+.courses h5 {
+    color: #413960;
+}
+
+
+.courses p {
+    color: #585859;
+}
+
+.courses .course-info {
+    color: #585859;
+
+}
+
+.courses .course-info img {
+    height: 24px;
+}
+
+.courses .card {
+    padding: 12px;
+    border: 0 !important;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+
+.courses .card .btn-rounded {
+    border-radius: 33px;
+    padding: 8px 28px;
+    background: #21B573;
+    border: none;
+
+}
+
+
+.courses .course-info p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #585859;
+}
+
+
+
+
+
+.testimonial h1 {
+    font-weight: bold;
+}
+
+
+
+footer .options {
+    background-color: #282531;
+    padding: 20px;
+}
+
+footer .options ul li a {
+    color: rgb(124, 124, 124);
+}
+
+footer .options ul li {
+    padding-bottom: 2vmin;
+}
+
+footer .options li a:hover {
+    color: #21B573;
+    text-decoration: none;
+}
+
+
+footer .options .news-Social {
+    text-align: center;
+}
+
+footer .options .news-Social form {
+    width: 30em;
+}

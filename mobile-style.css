@@ -1,0 +1,253 @@
+@media only screen and (max-device-width: 768px) {
+
+
+    header .navbar-brand {
+        padding-left: 0vmin;
+    }
+
+    header .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+
+    header .row .col-md-6 .panel h6 {
+        color: #FD511A;
+        padding: 0.7vmin;
+        letter-spacing: 2px;
+        font-size: 2vmin;
+    }
+
+    header .row .col-md-6 .panel h1 {
+        font-size: 2.2em;
+        line-height: 40px;
+    }
+
+    header .row .col-md-6 .panel h1 span {
+        color: #21B573;
+    }
+
+    header .row .col-md-6 .panel p {
+        color: #6C6B6B;
+        line-height: 20px;
+        font-size: 2vmin;
+    }
+
+
+    header .row .col-md-6 img {
+        width: 110%;
+        height: auto;
+        padding-top: 10vmin;
+        padding-left: 0vmin;
+    }
+
+    footer .options .social-icons .fab {
+        padding-right: 0vmin !important;
+    }
+
+    footer .options h3 {
+        font-size: 3vmin;
+    }
+
+    footer .options ul li {
+        font-size: 2vmin;
+    }
+
+    footer .options p {
+        font-size: 2vmin;
+    }
+
+    header .nav-item:last-child {
+        width: 45vmin;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+
+    header .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+
+    header .row .col-md-6 .panel h6 {
+        color: #FD511A;
+        padding: 0.5vmin;
+        letter-spacing: 2px;
+        font-size: 3vmin;
+    }
+
+    header .row .col-md-6 .panel h1 {
+        font-size: 2.2em;
+        line-height: 40px;
+    }
+
+    header .row .col-md-6 .panel h1 span {
+        color: #21B573;
+    }
+
+    header .row .col-md-6 .panel p {
+        color: #6C6B6B;
+        line-height: 20px;
+        font-size: 3vmin;
+    }
+
+
+    header .row .col-md-6 img {
+        width: 100%;
+        height: auto;
+        padding-top: 0vmin;
+        padding-left: 0vmin;
+    }
+
+    header .nav-item:last-child {
+        width: initial;
+        text-align: center;
+    }
+
+
+
+    footer .options {
+        padding: 0px;
+    }
+
+    footer .options .social-icons .fab {
+        padding-right: 0vmin !important;
+    }
+
+    footer .options h3 {
+        font-size: 6vmin;
+    }
+
+    footer .options ul li {
+        font-size: 4vmin;
+    }
+
+    footer .options p {
+        font-size: 4vmin;
+    }
+
+    footer .options .news-Social form {
+        width: initial;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+    header .navbar {
+        justify-content: center;
+    }
+
+    header .navbar-brand {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    header .nav-item:last-child {
+        width: 20em;
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+
+
+    header .nav-item {
+        font-size: 1.2em;
+    }
+
+
+
+    header .row .col-md-6 .panel {
+        padding-top: 10vmin;
+        padding-left: 4vmin;
+        padding-bottom: 10vmin;
+    }
+
+    header .row .col-md-6 .panel h6 {
+        color: #FD511A;
+        padding: 0.7vmin;
+        letter-spacing: 2px;
+        font-size: 2vmin;
+    }
+
+    header .row .col-md-6 .panel h1 {
+        font-size: 4em;
+        padding: 0.2em 0em;
+        line-height: 80px;
+    }
+
+
+
+    header .row .col-md-6 .panel p {
+        line-height: 30px;
+        font-size: 2vmin;
+    }
+
+    header .row .col-md-6 .panel button {
+        height: 5vmin;
+    }
+
+
+    header .row .col-md-6 img {
+        width: 120%;
+        height: auto;
+        padding-top: 9vmin;
+    }
+
+
+    /*************Section-1***********/
+
+    .single-service img {
+        height: 16vmin;
+        width: 25vmin;
+        padding: 0vmin 4vmin 0vmin 4vmin;
+    }
+
+    .testimonial p {
+        font-size: 2vmin;
+        width: 50vmin;
+        padding-left: 2vmin;
+    }
+
+
+    footer .options .social-icons .fab {
+        padding-right: 0vmin !important;
+    }
+
+    footer .options h3 {
+        font-size: 4vmin;
+    }
+
+    footer .options ul li {
+        font-size: 2vmin;
+    }
+
+    footer .options .col-md-3 p {
+        font-size: 2vmin;
+    }
+
+    footer .options .news-Social {
+        width: 50vmin;
+        justify-content: center;
+    }
+}
